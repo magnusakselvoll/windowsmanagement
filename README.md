@@ -13,7 +13,7 @@ the number of seconds to wait from the given time.
 
 Usage:
 ```
-restart -machine <HOST> -time <TIME>
+./restart.ps1 -machine <HOST> -time <TIME>
 ```
 Where &lt;HOST&gt; is an IP or resolveable name and &lt;TIME&gt; is a point in
 time within the next 24 hours. The script will, based on current time, detect if
@@ -23,5 +23,5 @@ from now to that time and issue the corresponding shutdown command
 
 The script may also be used interactively by running it with no parameters:
 ```
-restart
+./restart.ps1
 ```

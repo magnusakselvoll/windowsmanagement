@@ -1,4 +1,4 @@
-# windowsmanagement
+# Windows management
 Tools to assist in Windows IT Management
 
 ## PowerShell scripts
@@ -12,14 +12,14 @@ This script basically uses the native Windows "shutdown" command, but calculates
 the number of seconds to wait from the given time.
 
 Usage:
-´´´
-restart -machine <HOST> -time <TIME>
-´´´
-Where <HOST> is an IP or resolveable name and <TIME> is a point in time within
-the next 24 hours. The script will, based on current time, detect if that time
-is within the current day or next day, calculate the number of seconds from now
-to that time and issue the corresponding shutdown command
-(shutdown /r /m \\$machine /t $secondsToWait).
+```
+restart -machine &lt;HOST&gt; -time &lt;TIME&gt;
+```
+Where &lt;HOST&gt; is an IP or resolveable name and &lt;TIME&gt; is a point in
+time within the next 24 hours. The script will, based on current time, detect if
+that time is within the current day or next day, calculate the number of seconds
+from now to that time and issue the corresponding shutdown command
+(shutdown /r /m \\\\$machine /t $secondsToWait).
 
 The script may also be used interactively by running it with no parameters:
 ```

@@ -13,7 +13,7 @@ the number of seconds to wait from the given time.
 
 Usage:
 ```
-restart -machine &lt;HOST&gt; -time &lt;TIME&gt;
+restart -machine <HOST> -time <TIME>
 ```
 Where &lt;HOST&gt; is an IP or resolveable name and &lt;TIME&gt; is a point in
 time within the next 24 hours. The script will, based on current time, detect if

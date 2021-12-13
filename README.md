@@ -25,3 +25,16 @@ The script may also be used interactively by running it with no parameters:
 ```
 ./restart.ps1
 ```
+
+### Search-AllVolumes.ps1 ###
+A script written to search for a file across all fixed volumes on a computer.
+
+Usage:
+```
+./Search-AllVolumes.ps1 -Filter *log4j-core*
+```
+
+Since the script only has one parameter, a shorter way to do the same:
+```
+./Search-AllVolumes.ps1 *log4j-core*
+```

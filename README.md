@@ -38,3 +38,11 @@ Since the script only has one parameter, a shorter way to do the same:
 ```
 ./Search-AllVolumes.ps1 *log4j-core*
 ```
+
+### Get-InstalledApps.ps1 ###
+A script written to list all installed apps on a computer.
+
+Usage:
+```
+./Get-InstalledApps.ps1
+```

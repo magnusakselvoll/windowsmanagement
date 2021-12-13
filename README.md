@@ -46,3 +46,15 @@ Usage:
 ```
 ./Get-InstalledApps.ps1
 ```
+
+### Get-InstalledAppsForAllADComputers.ps1 ###
+A script written to list all installed apps on all computers in an AD.
+
+Usage:
+```
+./Get-InstalledAppsForAllADComputers.ps1 -OutputFilePath <FILENAME> [-Force]
+```
+
+Where &lt;FILENAME&gt; is the path you want to write the CSV data to.
+
+Use -Force to overwrite the file.
